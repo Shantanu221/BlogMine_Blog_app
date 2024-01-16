@@ -12,6 +12,8 @@
 
 ActiveRecord::Schema[7.1].define(version: 2024_01_16_135459) do
   create_table "article_categories", force: :cascade do |t|
+    t.integer "article_id"
+    t.integer "category_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
