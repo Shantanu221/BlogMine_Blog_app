@@ -37,6 +37,8 @@ gem "bcrypt", "~> 3.1.7"
 gem 'will_paginate', '~> 3.1.0'
 gem 'rexml', require: false
 
+gem "cssbundling-rails"
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
